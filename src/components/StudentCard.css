@@ -1,0 +1,28 @@
+.student-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform .2s, box-shadow .2s;
+}
+.student-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.student-avatar {
+  display: grid;
+  flex: 0 0 52px;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 16px;
+  color: var(--green);
+  background: var(--green-soft);
+  font-weight: 800;
+}
+.student-info { min-width: 0; }
+.student-info h3 { margin: 0 0 4px; font-size: 1rem; }
+.student-course { margin: 0 0 12px; color: var(--muted); font-size: .9rem; }
+.student-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; color: var(--muted); font-size: .78rem; }
+.year-tag { padding: 4px 8px; border-radius: 999px; color: var(--green); background: var(--green-soft); font-weight: 700; }

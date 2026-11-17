@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  color: #1d2b25;
+  background: #f6f8f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --green: #1c5948;
+  --green-soft: #e8f2eb;
+  --ink: #1d2b25;
+  --muted: #718078;
+  --border: #e4eae5;
+  --radius-md: 17px;
+  --shadow-sm: 0 5px 18px rgba(25, 55, 40, .045);
+  --shadow-md: 0 12px 30px rgba(25, 55, 40, .09);
+}
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, input { font: inherit; }
+a { color: inherit; }
+.app-shell { display: flex; min-height: 100vh; flex-direction: column; }
+.main-content { flex: 1; }
+.site-footer { padding: 23px 20px; border-top: 1px solid var(--border); color: var(--muted); background: white; text-align: center; font-size: .8rem; }
+.site-footer p { margin: 0; }
